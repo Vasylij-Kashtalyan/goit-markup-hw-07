@@ -1,7 +1,7 @@
 .section-works {
     padding-top: 0;
   }
-  .works {
+.works {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -11,17 +11,22 @@
     color: var(--link-text-color);
     margin-bottom: 50px;
   }
-  .works-items {
+
+.works-items {
     display: flex;
   }
-  .works-item:not(:last-child) {
-    margin-right: 30px;
+
+.works__item {
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
-  .works-item-container {
-    position: relative;
-    overflow: hidden;
-  }
-  .works-item-text {
+.works-item__container {
+   position: relative;
+   overflow: hidden;
+   }
+
+.works-item__text {
     position: absolute;
     display: flex;
     width: 100%;
@@ -39,4 +44,4 @@
   
     color: #ffffff;
     background: rgba(47, 48, 58, 0.8);
-  }
+  } 

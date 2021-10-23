@@ -53,9 +53,11 @@
   height: 4px;
   bottom: -1px;
   border-radius: 2px;
-
+ 
   background-color: var(--accent-color);
-  & {color: var(--accent-color);}
+}
+.current {
+  color: var(--accent-color)
 }
 
 .header-list-info {
